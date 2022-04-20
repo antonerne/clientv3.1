@@ -1,0 +1,17 @@
+{
+    "menus": [
+        {"title": "Employee", "menus": [
+            {"title": "Schedule", "link": "/employee/home", "roles": [ "employee"]},
+            {"title": "Profile", "link": "/employee/profile", "roles": [ "employee"]},
+            {"title": "Contact Info", "link": "/home", "roles": [ "employee"]},
+            {"title": "Specialty Info", "link": "/home", "roles": [ "employee"]},
+            {"title": "Leaves", "link": "/home", "roles": [ "employee"]},
+            {"title": "Leave Request", "link": "/home", "roles": [ "employee"]}
+        ]},{"title": "Site Schedule", "menus": [
+            {"title": "Schedule", "link": "/home", "roles": [ "employee"]},
+            {"title": "Coverage", "link": "/home", 
+                "roles": [ "Site Scheduler", "Shift Supervisor", 
+                    "Section Leader", "Site Leader"]}
+        ]}
+    ]
+}

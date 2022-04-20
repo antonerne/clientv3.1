@@ -3,7 +3,7 @@ import { Injectable } from "@angular/core";
 import { Router } from "@angular/router";
 import { Observable, throwError as observableThrowError } from "rxjs";
 import { catchError } from "rxjs/operators";
-import { AuthService } from "../auth/auth.service";
+import { AuthService } from "../services/auth.service";
 
 @Injectable()
 export class AuthHttpInterceptor implements HttpInterceptor {
